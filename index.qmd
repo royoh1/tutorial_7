@@ -1,8 +1,16 @@
 ---
-title: My Awesome Report
+title: "My Awesome Report"
 format:
   html:
+    toc: true
     embed-resources: true
+    output-file: index.html
+    self-contained: true
+execute:
+  echo: false
+  warning: false
+  error: false
+  output: true
 ---
 
 Here's a report of the titantic data
